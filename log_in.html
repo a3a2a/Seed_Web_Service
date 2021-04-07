@@ -6,15 +6,35 @@
     <title>SEED</title>
     <link rel="stylesheet" href="button.css">
     <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+      *{
+        font-family:'Nanum Gothic' !important;
+      }
+      body{
+        text-align: center;
+      }
+      #seed_LOGIN{
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+    </style>
   </head>
 
   <body>
+    <img class="seed" id="seed_LOGIN" src="LOGO.png" alt="SEED LOGO" width=15% height=15%>
+    <br>
+    <img src="line2.png" alt="">
     <form method="post" id="authForm" action="">
-      <div>
+      <div style="padding:10px;">
         <label for="loginID"></label>
-        <input type="text" id="loginID" name="loginID" value="" placeholder="Username or Id">
+        <input type="text" id="loginID" name="loginID" value=""
+               placeholder="Username or Id" style="margin: 5px;">
+        <br>
         <label for="loginPW"></label>
-        <input type="password" id="loginPW" name="password" placeholder="Password">
+        <input type="password" id="loginPW" name="password"
+               placeholder="Password" style="margin: 5px;">
       </div>
         <button type="submit" disabled="disabled">로그인</button>
   </body>
