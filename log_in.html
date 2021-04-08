@@ -9,6 +9,7 @@
 
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
       *{
         font-family:'Nanum Gothic' !important;
       }
@@ -28,7 +29,7 @@
     <img src="line2.png" alt="">
     <br>
     <form method="post" id="authForm" action="">
-      <div class="login_container" style="margin:5px;">
+      <div class="login_container" style="margin:20px;">
         <div class="ID_container" style="margin:5px;">
           <label for="loginID"></label>
           <input type="text" id="loginID" name="loginID"
@@ -41,9 +42,14 @@
                 placeholder="Password" style="border-radius:5px;">
           <img class="icon" id="find" src="icon_find.png" alt="?>">
         </div>
+        <button type="submit" onclick="" disabled="disabled" style="margin-top:10px;">로그인</button>
       </div>
-      <button type="submit" disabled="disabled" style="margin-top:10px;">로그인</button>
-      <br>
-      <img src="line2.png" alt="">
+    </form>
+      <div>
+        <img src="line3.png" alt="">
+        <span style="color:#D7D6D2; font-size:5px;">OR</span>
+        <img src="line3.png" alt="">
+      </div>
+      <button onclick="" disabled="disabled" style="margin:20px;">회원가입</button>
   </body>
 </html>
