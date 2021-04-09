@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>SEED</title>
+    <title>LOGIN</title>
     <link rel="stylesheet" href="button.css">
     <link rel="shortcut icon" type="image/x-icon" href="">
 
@@ -15,6 +15,8 @@
       }
       body{
         text-align: center;
+        margin: 0;
+        padding: 0;
       }
       #seed_LOGO{
         padding-top: 50px;
@@ -24,9 +26,9 @@
   </head>
 
   <body>
-    <img class="seed" id="seed_LOGO" src="LOGO.png" alt="SEED LOGO" width=142.94px height=103.26px>
+    <img class="seed" id="seed_LOGO" src="img/LOGO.png" alt="SEED LOGO" width=142.94px height=103.26px>
     <br>
-    <img src="line2.png" alt="">
+    <img src="img/line2.png" alt="">
     <br>
     <form method="post" id="authForm" action="">
       <div class="login_container" style="margin:20px;">
@@ -34,21 +36,21 @@
           <label for="loginID"></label>
           <input type="text" id="loginID" name="loginID"
                 placeholder="Username or Id" style="border-radius:5px;">
-          <img class="icon" id="find" src="icon_find.png" alt="?>">
+          <img class="icon" id="find" src="img/icon_find.png" alt="?>">
         </div>
         <div class="PW_container" style="margin:5px;">
           <label for="loginPW"></label>
           <input type="password" id="loginPW" name="password"
                 placeholder="Password" style="border-radius:5px;">
-          <img class="icon" id="find" src="icon_find.png" alt="?>">
+          <img class="icon" id="find" src="img/icon_find.png" alt="?>">
         </div>
         <button type="submit" onclick="" disabled="disabled" style="margin-top:10px;">로그인</button>
       </div>
     </form>
       <div>
-        <img src="line3.png" alt="">
+        <img src="img/line3.png" alt="">
         <span style="color:#D7D6D2; font-size:5px;">OR</span>
-        <img src="line3.png" alt="">
+        <img src="img/line3.png" alt="">
       </div>
       <button onclick="" disabled="disabled" style="margin:20px;">회원가입</button>
   </body>
