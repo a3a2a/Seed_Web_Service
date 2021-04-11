@@ -2,45 +2,89 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,
-      initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>HOME</title>
+    <link rel="stylesheet" href="home.css">
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
-      *{
-        font-family:'Nanum Gothic' !important;
-      }
 
-      html,body{
-        margin: 0;
-        padding: 0;
-      }
-
-      body{
-
-      }
-
-      .background{
-        width:100%;
-      }
-
-      .TOP{
-        position:relative;
-      }
-
-      #seed_LOGO{
-        position : relative;
-        left : 10px;
-        top : -10px;
-      }
+    *{
+      font-family:'Nanum Gothic' !important;
+    }
+    html,body{
+      margin: 0;
+      padding: 0;
+    }
     </style>
+    
   </head>
+
+
   <body>
     <div class="TOP">
-      <img class="background" src="img/splash_top2.png">
-      <img class="seed" id="seed_LOGO" src="img/LOGO.png" alt="SEED LOGO">
+      <img class="background" src="img/home_top.png">
+      <a href="home.html"><img class="logo" id="seed_LOGO" src="img/LOGO_home.png" alt="SEED LOGO"></a>
     </div>
+    <dl class="menu_container">
+      <dt><a href="Notice.html" style="color:#314F37; text-decoration:none;">공지사항</a></dt>
+          <input id="open_close" type="button" value="∧" onclick="
+            if(document.querySelector('#open_close').value === '∧'){
+              document.querySelector('#open_close').value = '∨';
+            }
+            else{
+              document.querySelector('#open_close').value = '∧';
+            }
+          ">
+          <br>
+      <dt><a href="Board.html" style="color:#314F37; text-decoration:none;">익명 게시판</a></dt>
+        <input id="open_close" type="button" value="∧" onclick="
+          if(document.querySelector('#open_close').value === '∧'){
+            document.querySelector('#open_close').value = '∨';
+          }
+          else{
+            document.querySelector('#open_close').value = '∧';
+          }
+          ">
+          <br>
+      <dt><a href="Dev_Board.html" style="color:#314F37; text-decoration:none;">Dev Board</a></dt>
+        <input id="open_close" type="button" value="∧" onclick="
+          if(document.querySelector('#open_close').value === '∧'){
+            document.querySelector('#open_close').value = '∨';
+          }
+          else{
+            document.querySelector('#open_close').value = '∧';
+          }
+          ">
+          <br>
+      <dt><a href="Room.html" style="color:#314F37; text-decoration:none;">동아리방 현황</a></dt>
+      <input id="open_close" type="button" value="∧" onclick="
+          if(document.querySelector('#open_close').value === '∧'){
+            document.querySelector('#open_close').value = '∨';
+          }
+          else{
+            document.querySelector('#open_close').value = '∧';
+          }
+          ">
+          <br>
+      <dt><a href="Study.html" style="color:#314F37; text-decoration:none;">스터디 수강신청</a></dt>
+        <input id="open_close" type="button" value="∧" onclick="
+          if(document.querySelector('#open_close').value === '∧'){
+            document.querySelector('#open_close').value = '∨';
+          }
+          else{
+            document.querySelector('#open_close').value = '∧';
+          }
+          ">
+          <br>
+      <dt><a href="MyPage.html" style="color:#314F37; text-decoration:none;">마이 페이지</a></dt>
+        <input id="open_close" type="button" value="∧" onclick="
+          if(document.querySelector('#open_close').value === '∧'){
+            document.querySelector('#open_close').value = '∨';
+          }
+          else{
+            document.querySelector('#open_close').value = '∧';
+          }
+          ">
+    </dl>
   </body>
 </html>
