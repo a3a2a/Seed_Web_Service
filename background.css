@@ -1,0 +1,33 @@
+.background{
+  position:relative;
+  z-index:0;
+  width:100%;
+  height:250px;
+  object-fit: fill;
+}
+
+.logo{
+  position:absolute;
+  z-index:1;
+  height: 230px;
+  left : 10px;
+  top : 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .background{
+    position:relative;
+    z-index:0;
+    width:100%;
+    height:160px;
+    object-fit: fill;
+  }
+
+  .logo{
+    height: 130px;
+    position:absolute;
+    z-index:1;
+    left : 10px;
+    top:15px;
+  }
+}

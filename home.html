@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>HOME</title>
+    <link rel="stylesheet" href="background.css">
     <link rel="stylesheet" href="home.css">
 
     <style>
@@ -16,7 +17,7 @@
       padding: 0;
     }
     </style>
-    
+
   </head>
 
 
@@ -26,63 +27,63 @@
       <a href="home.html"><img class="logo" id="seed_LOGO" src="img/LOGO_home.png" alt="SEED LOGO"></a>
     </div>
     <dl class="menu_container">
-      <dt><a href="Notice.html" style="color:#314F37; text-decoration:none;">공지사항</a></dt>
-          <input id="open_close" type="button" value="∧" onclick="
-            if(document.querySelector('#open_close').value === '∧'){
-              document.querySelector('#open_close').value = '∨';
+      <dt onClick="location.href='Notice.html'">공지사항</dt>
+          <input class="open_close" id="btn1" type="button" value="∧" onclick="
+            if(document.querySelector('#btn1').value === '∧'){
+              document.querySelector('#btn1').value = '∨';
             }
             else{
-              document.querySelector('#open_close').value = '∧';
+              document.querySelector('#btn1').value = '∧';
             }
           ">
           <br>
-      <dt><a href="Board.html" style="color:#314F37; text-decoration:none;">익명 게시판</a></dt>
-        <input id="open_close" type="button" value="∧" onclick="
-          if(document.querySelector('#open_close').value === '∧'){
-            document.querySelector('#open_close').value = '∨';
+      <dt onClick="location.href='Board.html'">익명 게시판</dt>
+        <input class="open_close" id="btn2" type="button" value="∧" onclick="
+          if(document.querySelector('#btn2').value === '∧'){
+            document.querySelector('#btn2').value = '∨';
           }
           else{
-            document.querySelector('#open_close').value = '∧';
+            document.querySelector('#btn2').value = '∧';
           }
           ">
           <br>
-      <dt><a href="Dev_Board.html" style="color:#314F37; text-decoration:none;">Dev Board</a></dt>
-        <input id="open_close" type="button" value="∧" onclick="
-          if(document.querySelector('#open_close').value === '∧'){
-            document.querySelector('#open_close').value = '∨';
+      <dt onClick="location.href='Dev_Board.html'">Dev Board</dt>
+        <input class="open_close" id="btn3" type="button" value="∧" onclick="
+          if(document.querySelector('#btn3').value === '∧'){
+            document.querySelector('#btn3').value = '∨';
           }
           else{
-            document.querySelector('#open_close').value = '∧';
+            document.querySelector('#btn3').value = '∧';
           }
           ">
           <br>
-      <dt><a href="Room.html" style="color:#314F37; text-decoration:none;">동아리방 현황</a></dt>
-      <input id="open_close" type="button" value="∧" onclick="
-          if(document.querySelector('#open_close').value === '∧'){
-            document.querySelector('#open_close').value = '∨';
+      <dt onClick="location.href='Room.html'">동아리방 현황</dt>
+      <input class="open_close" id="btn4" type="button" value="∧" onclick="
+          if(document.querySelector('#btn4').value === '∧'){
+            document.querySelector('#btn4').value = '∨';
           }
           else{
-            document.querySelector('#open_close').value = '∧';
+            document.querySelector('#btn4').value = '∧';
           }
           ">
           <br>
-      <dt><a href="Study.html" style="color:#314F37; text-decoration:none;">스터디 수강신청</a></dt>
-        <input id="open_close" type="button" value="∧" onclick="
-          if(document.querySelector('#open_close').value === '∧'){
-            document.querySelector('#open_close').value = '∨';
+      <dt onClick="location.href='Study.html'">스터디 수강신청</dt>
+        <input class="open_close" id="btn5" type="button" value="∧" onclick="
+          if(document.querySelector('#btn5').value === '∧'){
+            document.querySelector('#btn5').value = '∨';
           }
           else{
-            document.querySelector('#open_close').value = '∧';
+            document.querySelector('#btn5').value = '∧';
           }
           ">
           <br>
-      <dt><a href="MyPage.html" style="color:#314F37; text-decoration:none;">마이 페이지</a></dt>
-        <input id="open_close" type="button" value="∧" onclick="
-          if(document.querySelector('#open_close').value === '∧'){
-            document.querySelector('#open_close').value = '∨';
+      <dt onClick="location.href='MyPage.html'">마이페이지</dt>
+        <input class="open_close" id="btn6" type="button" value="∧" onclick="
+          if(document.querySelector('#btn6').value === '∧'){
+            document.querySelector('#btn6').value = '∨';
           }
           else{
-            document.querySelector('#open_close').value = '∧';
+            document.querySelector('#btn6').value = '∧';
           }
           ">
     </dl>
